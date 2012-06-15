@@ -2,7 +2,7 @@
 ;;;;     readme     ;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;
 
-Here you will have some projects showing how you can record data from kinect device. We also provide here some sample projects demostrating, how to use recorded data in other project and work without connecting the kinect device. In most cases, we reused the sample code "skeletalViewer" provided by microsoft. When you use the recorded data in your application, you should comment out the portion of initialization, shown in the sample projects(e.g. SampleVideoApplication's NuiImpl.cpp'sNui_init function).
+Here you will have some projects showing how you can record data from kinect device. We also provide here some sample projects demostrating, how to use recorded data in other project and work without connecting the kinect device. In most cases, we reused the sample code "skeletalViewer" provided by microsoft. When you use the recorded data in your application, you should comment out the portion of initialization, shown in the sample projects(e.g. SampleVideoApplication's NuiImpl.cpp's Nui_init function).
 
 
 ;;;;;;;;;;;;;;;;;;;
