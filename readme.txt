@@ -2,7 +2,7 @@
 ;;;;     readme     ;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;
 
-Here you will have some projects showing how you can record data from kinect device. We also provide here some sample projects demostrating, how to use recorded data in other project and work without connecting the kinect device. In most cases, we reused the sample code "skeletalViewer" provided by microsoft.
+Here you will have some projects showing how you can record data from kinect device. We also provide here some sample projects demostrating, how to use recorded data in other project and work without connecting the kinect device. In most cases, we reused the sample code "skeletalViewer" provided by microsoft. When you use the recorded data in your application, you should comment out the portion of initialization, shown in the sample projects(e.g. SampleVideoApplication's NuiImpl.cpp'sNui_init function).
 
 
 ;;;;;;;;;;;;;;;;;;;
@@ -34,7 +34,7 @@ AudioData folder contains theree projects.
  
 	2.KinectAudioReader: This project display the audio data using KinectAudioRecorder. Build the project and get the KinectAudioDisplay.exe from 			KinectAudioDisplay described later.
  	
-	3.KinectAudioDisplay: Sample application for showing the change of source and beam information with time using the previously stored dta using 		KinectAudioRecorder. Build the project and move the .exe to the same directory as the KinectAudioReader and execute the KinectAudioDisplay.exe.
+	3.KinectAudioDisplay: Sample application for showing the change of source and beam information with time using the previously stored data using KinectAudioRecorder. Build the project and move the .exe to the same directory as the KinectAudioReader and execute the KinectAudioDisplay.exe.
 
 
 
