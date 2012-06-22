@@ -23,6 +23,8 @@ SkeletonData folder contains two projects.
  	
 	2.SampleSkeletonApplication: this project simply shows the skeleton data recorded previously. Before running it, it is mandatory to put "skeleton.dat" in 	directory(with the cpp's), which was recorded previously by "KinectSkeletonDataRecorder".
 
+	In all the sample applications, we produced psudo-events by invoking the event driven methods manually. But in actual cased those methods are invoked when an event 
+	is generated(by either of the pull or push method).
 
 ;;;;;;;;;;;;;;;;;;
 ;;; AudiohData ;;;
